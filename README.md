@@ -1,8 +1,7 @@
 wcf-identity2
 =============
 
-Shows how to use ASP.NET Identity 2.0 over WCF (trusted subsystem at the moment)
-WCF services are extensionless was services (i love autofac :))
+#####Shows how to use ASP.NET Identity 2.0 over extensionless WAS WCF-Services (trusted subsystem at the moment) 
 
 
 The application consists of 3 layers:
@@ -17,6 +16,8 @@ The application consists of 3 layers:
 All models and dtos are in a seperated library, models are reused as data transfer objects, because i dont
 like the seperation of concerns with models. mapping models to dtos is kind of "over-seperated" to me. still keep 
 in mind => code less :)
+
+The complete project uses Autofac as IoC container.
 
 still todo:
 =============
